@@ -67,3 +67,75 @@
 .main-menu ul li a:hover {
     border-radius: 6px;
 }
+.about-us {
+    width: 1000px;
+    height: 280px;
+    /* background: red; */
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.about-us {
+}
+.about {
+    padding: 15px;
+    text-align: center;
+}
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.photo-gallery {
+    width: 1000px;
+    height: 280px;
+    /* background: yellow; */
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.photo-gallery-1 {
+    width: 24%;
+    height: 100%;
+    background: gray;
+    /* float: left; */
+    /* margin-left: 5px; */
+}
+img{
+    max-width: 100%;
+}
+
+.about p {
+    text-align: justify;
+    
+}
+.image {
+    width: 50%;
+    height: 100%;
+    /* background: green; */
+}
+
+.about {
+    width: 50%;
+    height: 100%;
+    
+}
+
+.about-us {display: flex;}
+
+.gallery {
+    width: 1000px;
+    height: auto;
+    background: gray;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.gallery h1 {
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+    color: yellow;
+}
