@@ -139,3 +139,63 @@ img{
     text-transform: uppercase;
     color: yellow;
 }
+
+.Leadership {
+    width: 1000px;
+    height: auto;
+    background: gray;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.team-memb-photos {
+    width: 1000px;
+    height: 250px;
+    /* border: 3px solid red; */
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.karim-photo {
+    width: 24%;
+    height: 100%;
+    border: 5px solid green;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    background: #f9ff00fa;
+}
+.karim-photo img {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.designation {
+    width: 1000px;
+    height: auto;
+    overflow: hidden;
+    /* background: green; */
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.name-and-designation {
+    width: 24%;
+    height: 100%;
+    /* border: 3px solid red; */
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+.name-and-designation h1 {
+    font-size: 30px;
+    margin-bottom: 7px;
+    font-style: italic;
+}
+
